@@ -1,0 +1,345 @@
+09/06/12 23:15:35 [2452][1][FATAL] Error running count query for zr2_ReportParameter List:  Query Failed: ( SELECT count(*) c FROM zr2_ReportParameterLink  INNER JOIN zr2_reportparameterlink_zr2_reportparameter_c ON (zr2_reportparameter.id=zr2_reportparameterlink_zr2_reportparameter_c.zr2_report29aerameter_ida AND zr2_reportparameterlink_zr2_reportparameter_c.zr2_report53a6terlink_idb= '43f8f751-a5a2-dbd4-c0f8-50492e226e12') where (  zr2_reportparameterlink_zr2_reportparameter_c.deleted=0 AND zr2_reportparameter.deleted=0) AND zr2_ReportParameterLink.deleted=0 ): MySQL error 1054: Unknown column 'zr2_reportparameter.deleted' in 'where clause'
+09/06/12 23:29:54 [2452][1][FATAL] Error running count query for zr2_ReportParameter List:  Query Failed: ( SELECT count(*) c FROM zr2_ReportParameterLink  INNER JOIN zr2_reportparameterlink_zr2_reportparameter_c ON (zr2_reportparameter.id=zr2_reportparameterlink_zr2_reportparameter_c.zr2_report29aerameter_ida AND zr2_reportparameterlink_zr2_reportparameter_c.zr2_report53a6terlink_idb= '43f8f751-a5a2-dbd4-c0f8-50492e226e12') where (  zr2_reportparameterlink_zr2_reportparameter_c.deleted=0 AND zr2_reportparameter.deleted=0) AND zr2_ReportParameterLink.deleted=0 ): MySQL error 1054: Unknown column 'zr2_reportparameter.deleted' in 'where clause'
+09/06/12 23:30:33 [2452][1][FATAL] HTTP Error: no data present after HTTP headers
+09/06/12 23:30:33 [2452][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Thu, 06 Sep 2012 23:30:28 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.129
+Content-Length: 0
+
+
+09/06/12 23:30:36 [2452][1][FATAL] HTTP Error: no data present after HTTP headers
+09/06/12 23:30:36 [2452][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Thu, 06 Sep 2012 23:30:31 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.129
+Content-Length: 0
+
+
+09/06/12 23:30:37 [2452][1][FATAL] HTTP Error: no data present after HTTP headers
+09/06/12 23:30:37 [2452][1][FATAL] HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Thu, 06 Sep 2012 23:30:32 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.129
+Content-Length: 0
+
+
+09/06/12 23:33:04 [2452][1][FATAL] HTTP Error: no data present after HTTP headers
+09/06/12 23:33:04 [2452][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Thu, 06 Sep 2012 23:32:59 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.129
+Content-Length: 0
+
+
+09/06/12 23:33:06 [2452][1][FATAL] HTTP Error: no data present after HTTP headers
+09/06/12 23:33:06 [2452][1][FATAL] HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Thu, 06 Sep 2012 23:33:01 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.129
+Content-Length: 0
+
+
+09/07/12 00:29:39 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 00:29:39 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 00:29:34 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 00:29:40 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 00:29:40 [3256][1][FATAL] HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 00:29:36 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 00:32:43 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 00:32:43 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 00:32:38 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 00:32:44 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 00:32:44 [3256][1][FATAL] HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 00:32:39 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 00:42:21 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 00:42:21 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 00:42:17 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 00:42:24 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 00:42:24 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 00:42:20 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 00:42:25 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 00:42:25 [3256][1][FATAL] HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 00:42:21 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 00:52:14 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 00:52:14 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 00:52:09 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 00:52:16 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 00:52:16 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 00:52:12 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 00:52:18 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 00:52:18 [3256][1][FATAL] HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 00:52:13 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 01:01:16 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 01:01:16 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 01:01:11 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 01:01:18 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 01:01:18 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 01:01:14 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 01:01:19 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 01:01:19 [3256][1][FATAL] HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 01:01:15 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 01:01:26 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 01:01:26 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 01:01:21 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 01:01:28 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 01:01:28 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 01:01:24 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 01:01:30 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 01:01:30 [3256][1][FATAL] HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 01:01:25 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 01:12:02 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 01:12:02 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 01:11:58 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 01:12:05 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 01:12:05 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 01:12:01 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 01:12:06 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 01:12:06 [3256][1][FATAL] HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 01:12:02 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 01:13:43 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 01:13:43 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 01:13:38 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 01:13:45 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 01:13:45 [3256][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 01:13:41 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 01:13:47 [3256][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 01:13:47 [3256][1][FATAL] HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 01:13:42 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 01:20:36 [3256][1][FATAL] Error fetching relationship from cache users_holidays
+09/07/12 01:20:52 [3256][1][FATAL] Error fetching relationship from cache users_holidays
+09/07/12 01:21:03 [3256][1][FATAL] Error fetching relationship from cache users_holidays
+09/07/12 01:21:16 [3256][1][FATAL] Error fetching relationship from cache users_holidays
+09/07/12 01:21:28 [3256][1][FATAL] Error fetching relationship from cache users_holidays
+09/07/12 07:36:34 [1700][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 07:36:34 [1700][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 07:36:29 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 07:36:36 [1700][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 07:36:36 [1700][1][FATAL] HTTP/1.1 100 Continue
+
+HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 07:36:32 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+
+09/07/12 07:36:38 [1700][1][FATAL] HTTP Error: no data present after HTTP headers
+09/07/12 07:36:38 [1700][1][FATAL] HTTP/1.1 500 Internal Server Error
+Server: nginx
+Date: Fri, 07 Sep 2012 07:36:33 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Application-Server: 10.13.10.130
+Content-Length: 0
+
+

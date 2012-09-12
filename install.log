@@ -1,0 +1,226 @@
+
+2012-07-31 15:42:51...Begin System Check Process *************
+2012-07-31 15:42:51...Found at least one supported DB Type
+2012-07-31 15:42:51...XML Parsing Support Found
+2012-07-31 15:42:51...MBString Support Found
+2012-07-31 15:42:51...ZIP Support Found
+2012-07-31 15:42:51.../custom directory and subdirectory check passed
+2012-07-31 15:42:51.../data/upoad directory and subdirectory check passed
+2012-07-31 15:42:51.../cache directory and subdirectory check passed
+2012-07-31 15:42:52.../module  directory and subdirectory check passed
+2012-07-31 15:42:52...php.ini location found. C:\wamp\bin\apache\apache2.2.22\bin\php.ini
+2012-07-31 15:42:52...Outputting HTML for System check
+2012-07-31 15:42:52...No Errors were found *************
+2012-07-31 15:43:26...Begin DB Check Process *************
+2012-07-31 15:43:26...Checking DB Name is valid.
+2012-07-31 15:43:26...Basic form info is valid, continuing Process.
+2012-07-31 15:43:26...testing with mysql
+2012-07-31 15:43:26...MySQLI library detected
+2012-07-31 15:43:27...Connection made using  host: localhost, usr: root
+2012-07-31 15:43:27...Testing priviliged account...
+2012-07-31 15:43:28...Connection made for Privileged admin account using  host: localhost, usr: root
+2012-07-31 15:43:28...ERROR:: The provided Database Name already exists.  You can<br>1.  hit the back button and choose a new database name <br>2.  click next and continue but all existing tables on this database will be dropped.  <strong>This means your tables and data will be blown away.</strong>
+2012-07-31 15:43:28...DB Selected, will reuse sugarcrm62
+2012-07-31 15:43:28...Passed DB Version check, version is 5.5.24
+2012-07-31 15:43:29...WARNING:: no errors detected, but DB tables will be dropped!, issuing warning to user
+2012-07-31 15:43:29...End DB Check Process *************
+2012-07-31 15:44:24...calling handleSugarConfig()
+2012-07-31 15:44:24...calling handleLog4Php()
+2012-07-31 15:44:24...calling handleHtaccess()
+2012-07-31 15:44:24...calling handleDbCharsetCollation()
+2012-07-31 15:44:26...looping through all the Beans and create their tables
+2012-07-31 15:44:26...processing table acl_actions
+2012-07-31 15:44:27...dropping table acl_actions
+2012-07-31 15:44:27...creating table acl_actions
+2012-07-31 15:44:27...creating Relationship Meta for ACLAction
+2012-07-31 15:44:27...processing table acl_roles
+2012-07-31 15:44:27...dropping table acl_roles
+2012-07-31 15:44:27...creating table acl_roles
+2012-07-31 15:44:27...creating Relationship Meta for ACLRole
+2012-07-31 15:44:27...processing table relationships
+2012-07-31 15:44:27...dropping table relationships
+2012-07-31 15:44:27...creating table relationships
+2012-07-31 15:44:27...creating Relationship Meta for Relationship
+2012-07-31 15:44:27...processing table leads
+2012-07-31 15:44:28...dropping table leads
+2012-07-31 15:44:29...creating table leads
+2012-07-31 15:44:29...creating Relationship Meta for Lead
+2012-07-31 15:44:30...processing table cases
+2012-07-31 15:44:31...dropping table cases
+2012-07-31 15:44:32...creating table cases
+2012-07-31 15:44:32...creating Relationship Meta for Case
+2012-07-31 15:44:33...processing table bugs
+2012-07-31 15:44:33...dropping table bugs
+2012-07-31 15:44:34...creating table bugs
+2012-07-31 15:44:34...creating Relationship Meta for Bug
+2012-07-31 15:44:35...processing table users
+2012-07-31 15:44:35...dropping table users
+2012-07-31 15:44:36...creating table users
+2012-07-31 15:44:36...creating Relationship Meta for User
+2012-07-31 15:44:37...processing table campaign_log
+2012-07-31 15:44:38...dropping table campaign_log
+2012-07-31 15:44:39...creating table campaign_log
+2012-07-31 15:44:39...creating Relationship Meta for CampaignLog
+2012-07-31 15:44:39...processing table project
+2012-07-31 15:44:39...dropping table project
+2012-07-31 15:44:40...creating table project
+2012-07-31 15:44:40...creating Relationship Meta for Project
+2012-07-31 15:44:41...processing table project_task
+2012-07-31 15:44:42...dropping table project_task
+2012-07-31 15:44:43...creating table project_task
+2012-07-31 15:44:43...creating Relationship Meta for ProjectTask
+2012-07-31 15:44:44...processing table campaigns
+2012-07-31 15:44:44...dropping table campaigns
+2012-07-31 15:44:45...creating table campaigns
+2012-07-31 15:44:45...creating Relationship Meta for Campaign
+2012-07-31 15:44:47...processing table prospect_lists
+2012-07-31 15:44:47...dropping table prospect_lists
+2012-07-31 15:44:48...creating table prospect_lists
+2012-07-31 15:44:48...creating Relationship Meta for ProspectList
+2012-07-31 15:44:48...processing table prospects
+2012-07-31 15:44:48...dropping table prospects
+2012-07-31 15:44:51...creating table prospects
+2012-07-31 15:44:51...creating Relationship Meta for Prospect
+2012-07-31 15:44:52...processing table email_marketing
+2012-07-31 15:44:52...dropping table email_marketing
+2012-07-31 15:44:53...creating table email_marketing
+2012-07-31 15:44:53...creating Relationship Meta for EmailMarketing
+2012-07-31 15:44:53...processing table campaign_trkrs
+2012-07-31 15:44:53...dropping table campaign_trkrs
+2012-07-31 15:44:54...creating table campaign_trkrs
+2012-07-31 15:44:54...creating Relationship Meta for CampaignTracker
+2012-07-31 15:44:54...processing table releases
+2012-07-31 15:44:54...dropping table releases
+2012-07-31 15:44:54...creating table releases
+2012-07-31 15:44:54...creating Relationship Meta for Release
+2012-07-31 15:44:54...processing table emailman
+2012-07-31 15:44:54...dropping table emailman
+2012-07-31 15:44:54...creating table emailman
+2012-07-31 15:44:54...creating Relationship Meta for EmailMan
+2012-07-31 15:44:54...processing table schedulers
+2012-07-31 15:44:54...dropping table schedulers
+2012-07-31 15:44:55...creating table schedulers
+2012-07-31 15:44:55...creating Relationship Meta for schedulers
+2012-07-31 15:44:55...processing table schedulers_times
+2012-07-31 15:44:55...dropping table schedulers_times
+2012-07-31 15:44:55...creating table schedulers_times
+2012-07-31 15:44:55...creating Relationship Meta for SchedulersJob
+2012-07-31 15:44:55...processing table contacts
+2012-07-31 15:44:55...dropping table contacts
+2012-07-31 15:44:57...creating table contacts
+2012-07-31 15:44:57...creating Relationship Meta for Contact
+2012-07-31 15:44:59...processing table accounts
+2012-07-31 15:44:59...dropping table accounts
+2012-07-31 15:45:00...creating table accounts
+2012-07-31 15:45:00...creating Relationship Meta for Account
+2012-07-31 15:45:04...processing table opportunities
+2012-07-31 15:45:04...dropping table opportunities
+2012-07-31 15:45:05...creating table opportunities
+2012-07-31 15:45:05...creating Relationship Meta for Opportunity
+2012-07-31 15:45:06...processing table email_templates
+2012-07-31 15:45:06...dropping table email_templates
+2012-07-31 15:45:07...creating table email_templates
+2012-07-31 15:45:07...creating Relationship Meta for EmailTemplate
+2012-07-31 15:45:07...processing table notes
+2012-07-31 15:45:07...dropping table notes
+2012-07-31 15:45:08...creating table notes
+2012-07-31 15:45:08...creating Relationship Meta for Note
+2012-07-31 15:45:09...processing table calls
+2012-07-31 15:45:09...dropping table calls
+2012-07-31 15:45:10...creating table calls
+2012-07-31 15:45:10...creating Relationship Meta for Call
+2012-07-31 15:45:10...processing table emails
+2012-07-31 15:45:10...dropping table emails
+2012-07-31 15:45:11...creating table emails
+2012-07-31 15:45:11...creating Relationship Meta for Email
+2012-07-31 15:45:12...processing table meetings
+2012-07-31 15:45:12...dropping table meetings
+2012-07-31 15:45:15...creating table meetings
+2012-07-31 15:45:15...creating Relationship Meta for Meeting
+2012-07-31 15:45:16...processing table tasks
+2012-07-31 15:45:16...dropping table tasks
+2012-07-31 15:45:17...creating table tasks
+2012-07-31 15:45:17...creating Relationship Meta for Task
+2012-07-31 15:45:18...processing table users
+2012-07-31 15:45:18...processing table users
+2012-07-31 15:45:18...processing table currencies
+2012-07-31 15:45:18...dropping table currencies
+2012-07-31 15:45:18...creating table currencies
+2012-07-31 15:45:18...creating Relationship Meta for Currency
+2012-07-31 15:45:18...processing table tracker
+2012-07-31 15:45:18...dropping table tracker
+2012-07-31 15:45:19...creating table tracker
+2012-07-31 15:45:19...creating Relationship Meta for Tracker
+2012-07-31 15:45:19...processing table import_maps
+2012-07-31 15:45:19...dropping table import_maps
+2012-07-31 15:45:19...creating table import_maps
+2012-07-31 15:45:19...creating Relationship Meta for ImportMap
+2012-07-31 15:45:19...processing table users_last_import
+2012-07-31 15:45:19...dropping table users_last_import
+2012-07-31 15:45:19...creating table users_last_import
+2012-07-31 15:45:19...creating Relationship Meta for UsersLastImport
+2012-07-31 15:45:19...processing table config
+2012-07-31 15:45:19...dropping table config
+2012-07-31 15:45:19...creating table config
+2012-07-31 15:45:19...creating Relationship Meta for Administration
+2012-07-31 15:45:19...processing table upgrade_history
+2012-07-31 15:45:20...dropping table upgrade_history
+2012-07-31 15:45:20...creating table upgrade_history
+2012-07-31 15:45:20...creating Relationship Meta for UpgradeHistory
+2012-07-31 15:45:20...processing table vcals
+2012-07-31 15:45:20...dropping table vcals
+2012-07-31 15:45:20...creating table vcals
+2012-07-31 15:45:20...creating Relationship Meta for vCal
+2012-07-31 15:45:20...processing table versions
+2012-07-31 15:45:20...dropping table versions
+2012-07-31 15:45:21...creating table versions
+2012-07-31 15:45:21...creating Relationship Meta for Version
+2012-07-31 15:45:21...processing table roles
+2012-07-31 15:45:21...dropping table roles
+2012-07-31 15:45:21...creating table roles
+2012-07-31 15:45:21...creating Relationship Meta for Role
+2012-07-31 15:45:21...processing table documents
+2012-07-31 15:45:21...dropping table documents
+2012-07-31 15:45:22...creating table documents
+2012-07-31 15:45:22...creating Relationship Meta for Document
+2012-07-31 15:45:22...processing table document_revisions
+2012-07-31 15:45:23...dropping table document_revisions
+2012-07-31 15:45:23...creating table document_revisions
+2012-07-31 15:45:23...creating Relationship Meta for DocumentRevision
+2012-07-31 15:45:23...processing table fields_meta_data
+2012-07-31 15:45:23...dropping table fields_meta_data
+2012-07-31 15:45:23...creating table fields_meta_data
+2012-07-31 15:45:23...creating Relationship Meta for FieldsMetaData
+2012-07-31 15:45:23...processing table inbound_email
+2012-07-31 15:45:23...dropping table inbound_email
+2012-07-31 15:45:23...creating table inbound_email
+2012-07-31 15:45:23...creating Relationship Meta for InboundEmail
+2012-07-31 15:45:24...processing table saved_search
+2012-07-31 15:45:24...dropping table saved_search
+2012-07-31 15:45:24...creating table saved_search
+2012-07-31 15:45:24...creating Relationship Meta for SavedSearch
+2012-07-31 15:45:24...processing table user_preferences
+2012-07-31 15:45:24...dropping table user_preferences
+2012-07-31 15:45:24...creating table user_preferences
+2012-07-31 15:45:24...creating Relationship Meta for UserPreference
+2012-07-31 15:45:24...processing table 
+2012-07-31 15:45:24...processing table email_addresses
+2012-07-31 15:45:25...dropping table email_addresses
+2012-07-31 15:45:25...creating table email_addresses
+2012-07-31 15:45:25...creating Relationship Meta for EmailAddress
+2012-07-31 15:45:25...processing table sugarfeed
+2012-07-31 15:45:25...dropping table sugarfeed
+2012-07-31 15:45:26...creating table sugarfeed
+2012-07-31 15:45:26...creating Relationship Meta for SugarFeed
+2012-07-31 15:45:27...processing table eapm
+2012-07-31 15:45:28...dropping table eapm
+2012-07-31 15:45:29...creating table eapm
+2012-07-31 15:45:29...creating Relationship Meta for EAPM
+2012-07-31 15:45:55...Begin creating Defaults
+2012-07-31 15:45:55...insert defaults into config table
+2012-07-31 15:45:57...Creating default users
+2012-07-31 15:45:57...Creating default scheduler jobs
+2012-07-31 15:45:57...Enable SugarFeeds
+2012-07-31 15:45:58...Enable InsideView Connector
+2012-07-31 15:45:58...populating the db with seed data
+2012-07-31 16:03:27...Installation has completed *********
